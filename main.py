@@ -6,7 +6,7 @@ from slack_bolt.adapter.socket_mode import SocketModeHandler
 from slack_bolt.context import say
 from slack_sdk.errors import SlackApiError
 
-from constants import CHANNEL_ID, GROUP_ID, OWNER_ID
+from constants import CHANNEL_ID, GROUP_ID, OWNER_ID, CANVAS_URL
 
 load_dotenv()
 
@@ -51,7 +51,7 @@ def handle_member_joined(event, say, logger, client):
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": f"Hi <@{user_id}>! Welcome to <#{CHANNEL_ID}>! This is where Kaihang excessivly pings you!"
+                        "text": f"Hi <@{user_id}>! Welcome to <#{CHANNEL_ID}>! This is where I do a lot of random stuff and whatnot. Fair warning, there will be a LOT of @channel pings. Please do read the rules here: <{CANVAS_URL}|Rules"
                     }
                 },
                 {
