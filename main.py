@@ -51,7 +51,7 @@ def handle_member_joined(event, say, logger, client):
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": f"Hi <@{user_id}>! Welcome to <#{CHANNEL_ID}>! This is where I do a lot of random stuff and whatnot. Fair warning, there will be a LOT of @channel pings. Please do read the rules here: <{CANVAS_URL}|Rules"
+                        "text": f"Hi <@{user_id}>! Welcome to <#{CHANNEL_ID}>! This is where I do a lot of random stuff and whatnot. Fair warning, there will be a LOT of @channel pings. Please do read the rules here: <{CANVAS_URL}>"
                     }
                 },
                 {
