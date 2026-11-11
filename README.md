@@ -1,8 +1,6 @@
 # Nibble
 
-A Slack bot for `#kaihangs-shitdump`, built with [Slack Bolt for Python](https://slack.dev/bolt-python/) and running over Socket Mode.
-
-Name contributed by @Koy. Canonically a Catenby.
+A Slack bot for `#kaihangs-shitdump`(Hack Club Slack), built with [Slack Bolt for Python](https://slack.dev/bolt-python/) and running over Socket Mode.
 
 ## What it does
 
