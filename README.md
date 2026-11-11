@@ -50,9 +50,9 @@ SLACK_SIGNING_SECRET=...
 Edit [`constants.py`](./constants.py) to point at your own workspace:
 
 ```python
-CHANNEL_ID = "C0B4W8S1N3Z"  # the channel to watch
-GROUP_ID   = "S0BFYQCUVK6"  # the user group to manage
-OWNER_ID   = "U08EGTXVCFR"  # pinged when someone joins
+CHANNEL_ID = "CHANNEL ID HERE"  # the channel to watch
+GROUP_ID   = "GROUP ID HERE"  # the user group to manage
+OWNER_ID   = "OWNER ID HERE"  # pinged when someone joins
 ```
 
 ## Running
